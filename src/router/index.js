@@ -26,6 +26,7 @@ const router = new Router({
     { path: '/test', component: TestComponent },
     { path: '/test/bild', component: Bild },
     { path: '/bar', component: Bar },
+    { path: '/häusle', component: () => import('../components/Haeusle/Overview.vue') },
     {
       path: "/profile",
       name: "profile",
